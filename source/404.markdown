@@ -1,0 +1,10 @@
+---
+layout: page
+title: "Page not found"
+comments: false
+---
+Unfortunately, you have reached a page that is not found. Please use the
+navigation bar to find your way back into the site. Or, you can go to:
+
+* [The front page](/)
+* [The blog archive](/blog/archives)
