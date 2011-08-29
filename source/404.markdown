@@ -8,3 +8,10 @@ navigation bar to find your way back into the site. Or, you can go to:
 
 * [The front page](/)
 * [The blog archive](/blog/archives)
+<script type="text/javascript">
+  var GOOG_FIXURL_LANG = 'en';
+  var GOOG_FIXURL_SITE = 'http://www.example.com'
+</script>
+<script type="text/javascript"
+  src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js">
+</script>
