@@ -219,7 +219,7 @@ task :s3 do
   config = YAML::load(File.open('_config.yml'))
   url = config['url']
   s3_bucket = URI.parse(url).host
-  ok_failed system("octo-env/bin/s3cmd sync --acl-public --reduced-redundancy public/* s3://#{s3_bucket}/")
+  ok_failed system("octo-env/bin/s3cmd sync --acl-public --add-header \"Cache-control: max-age=3600\" public/* s3://#{s3_bucket}/")
 end
 
 desc "Deploy website via s3cmd to Amazon CloudFront"
@@ -228,7 +228,7 @@ task :cloudfront do
   config = YAML::load(File.open('_config.yml'))
   url = config['url']
   s3_bucket = URI.parse(url).host
-  ok_failed system("s3cmd sync --acl-public --reduced-redundancy --cf-invalidate public/* s3://#{s3_bucket}/")
+  ok_failed system("s3cmd sync --acl-public ---add-header \"Cache-control: max-age=3600\" --cf-invalidate public/* s3://#{s3_bucket}/")
 end
 
 desc "deploy public directory to github pages"
