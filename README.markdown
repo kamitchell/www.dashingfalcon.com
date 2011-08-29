@@ -13,7 +13,7 @@ Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
 Check out [Octopress.org](http://octopress.org/docs) for guides and documentation.
 
 ## Copyright
-Postings and other materials in the source directory (other than those from the original [Octopress](https://github.com/imathis/octopress) project) are copyright &copy; Kevin A. Mitchell. All rights reserved. The remainder of the software is licensed under the MIT license below.
+Postings and other materials in the source directory (other than those from the original [Octopress](https://github.com/imathis/octopress) project) are copyright &copy; 2007&mdash;2011 Kevin A. Mitchell. All rights reserved. The remainder of the software is licensed under the MIT license below.
 
 ## License
 (The MIT License)
