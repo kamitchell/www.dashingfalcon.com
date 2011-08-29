@@ -1,0 +1,1 @@
+-e git://github.com/s3tools/s3cmd.git@65eef73e8379ceaebbec17e044930fedd3387462#egg=s3cmd-dev
