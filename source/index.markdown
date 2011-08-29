@@ -1,6 +1,5 @@
 ---
 layout: page
-date: 2011-08-27 15:22
 comments: false
 sharing: true
 footer: true

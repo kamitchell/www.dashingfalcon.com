@@ -1,7 +1,6 @@
 ---
 title: "GIFConverter Downloads"
 layout: gifconverter
-date: 2011-08-27 15:34
 comments: false
 sharing: true
 footer: true

@@ -1,6 +1,5 @@
 ---
 layout: gifconverter
-date: 2011-08-27 15:32
 comments: false
 sharing: true
 footer: true
